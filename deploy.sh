@@ -15,7 +15,6 @@ opts=(-rlpc -i -8
 	--exclude "*.sh"
 	--exclude ".git*"
 	--exclude "*.pdf"
-	--exclude "done.txt"
 	--exclude ".DS_Store")
 
 # Copy the live site to ~/winmetta.org-dhamma-library-backup-<hash> on the server, where
