@@ -1,0 +1,4 @@
+# The "Rear-Buddhist-Books" folders were misspelled; the pages now live under "Rare-...".
+# Keep old page URLs and bookmarks working. Needs mod_alias and AllowOverride FileInfo.
+RedirectMatch 301 "^/dhamma-library/13\. Rear-Buddhist-Books-1(/.*)?$" "/dhamma-library/13. Rare-Buddhist-Books-1$1"
+RedirectMatch 301 "^/dhamma-library/14\. Rear-Buddhist-Books-2(/.*)?$" "/dhamma-library/14. Rare-Buddhist-Books-2$1"
